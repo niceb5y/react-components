@@ -11,6 +11,8 @@
 		"noFallthroughCasesInSwitch": true,
 		"moduleResolution": "node",
 		"esModuleInterop": true,
-		"skipLibCheck": true
-	}
+		"skipLibCheck": true,
+		"outDir": "./lib"
+	},
+	"exclude": ["stories/**/*", "lib/**/*"]
 }
