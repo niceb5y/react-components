@@ -1,37 +1,37 @@
 {
-	"name": "@niceb5y/react-components",
-	"version": "0.0.2",
-	"main": "lib/index.js",
-	"repository": "git@github.com:niceb5y/react-components.git",
-	"author": "Seungho Kim <niceb5y@gmail.com>",
-	"license": "MIT",
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/"
-	},
-	"dependencies": {
-		"react": "^16.13.1",
-		"react-dom": "^16.13.1"
-	},
-	"devDependencies": {
-		"@babel/core": "^7.9.0",
-		"@storybook/addon-actions": "^5.3.18",
-		"@storybook/addon-info": "^5.3.18",
-		"@storybook/addon-knobs": "^5.3.18",
-		"@storybook/addon-links": "^5.3.18",
-		"@storybook/addons": "^5.3.18",
-		"@storybook/react": "^5.3.18",
-		"@types/node": "^13.13.2",
-		"@types/react": "^16.9.34",
-		"@types/react-dom": "^16.9.6",
-		"babel-loader": "^8.1.0",
-		"react-docgen-typescript-loader": "^3.7.2",
-		"ts-loader": "^7.0.1",
-		"typescript": "^3.8.3"
-	},
-	"scripts": {
-		"storybook": "start-storybook -p 6006",
-		"build-storybook": "build-storybook",
-		"build": "tsc",
-		"build:watch": "tsc --watch"
-	}
+  "name": "@niceb5y/react-components",
+  "version": "0.0.3",
+  "main": "lib/index.js",
+  "repository": "git@github.com:niceb5y/react-components.git",
+  "author": "Seungho Kim <niceb5y@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-info": "^5.3.18",
+    "@storybook/addon-knobs": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "@types/node": "^13.13.2",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "babel-loader": "^8.1.0",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "ts-loader": "^7.0.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  }
 }
