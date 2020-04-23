@@ -1,7 +1,7 @@
 import React from 'react'
 import { withKnobs, select } from '@storybook/addon-knobs'
 
-import Icon from '../src/Icon'
+import { Icon } from '../src'
 
 const ICON_NAMES = [
   'add-to-list',

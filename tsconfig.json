@@ -1,18 +1,18 @@
 {
-	"compilerOptions": {
-		"target": "es2017",
-		"module": "commonjs",
-		"jsx": "react",
-		"declaration": true,
-		"strict": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"noImplicitReturns": true,
-		"noFallthroughCasesInSwitch": true,
-		"moduleResolution": "node",
-		"esModuleInterop": true,
-		"skipLibCheck": true,
-		"outDir": "./lib"
-	},
-	"exclude": ["stories/**/*", "lib/**/*"]
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "jsx": "react",
+    "declaration": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "dist"
+  },
+  "exclude": ["stories/**/*", "dist/**/*"]
 }
