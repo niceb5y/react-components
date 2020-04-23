@@ -61,5 +61,5 @@ typings/
 .next
 
 # Output files
-lib/**/*.js
-lib/**/*.d.ts
+dist/**/*.js
+dist/**/*.d.ts
