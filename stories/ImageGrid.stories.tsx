@@ -1,0 +1,172 @@
+import React from 'react'
+
+import { ImageGrid } from '../src'
+import { withKnobs, number } from '@storybook/addon-knobs'
+
+export default {
+  title: 'ImageGrid',
+  component: ImageGrid,
+  decorators: [withKnobs],
+}
+
+export const basic = () => {
+  return (
+    <>
+      <ImageGrid
+        padding={number('padding', 10, { min: 0, max: 50, step: 5 })}
+        rowHeight={number('rowHeight', 200, { min: 100, max: 500, step: 100 })}
+      >
+        <img
+          src={`https://via.placeholder.com/600x800`}
+          width={600}
+          height={800}
+        />
+        <img
+          src="https://via.placeholder.com/151x162"
+          width={151}
+          height={162}
+        />
+        <img
+          src="https://via.placeholder.com/610x130"
+          width={610}
+          height={130}
+        />
+        <img
+          src="https://via.placeholder.com/400x150"
+          width={400}
+          height={150}
+        />
+        <img
+          src="https://via.placeholder.com/120x700"
+          width={120}
+          height={700}
+        />
+        <img
+          src="https://via.placeholder.com/150x730"
+          width={150}
+          height={730}
+        />
+        <img
+          src="https://via.placeholder.com/150x160"
+          width={150}
+          height={160}
+        />
+        <img
+          src="https://via.placeholder.com/400x150"
+          width={400}
+          height={150}
+        />
+        <img
+          src="https://via.placeholder.com/120x700"
+          width={120}
+          height={700}
+        />
+        <img
+          src="https://via.placeholder.com/150x730"
+          width={150}
+          height={730}
+        />
+        <img
+          src="https://via.placeholder.com/150x160"
+          width={150}
+          height={160}
+        />
+        <img
+          src="https://via.placeholder.com/170x170"
+          width={170}
+          height={170}
+        />
+        <img
+          src="https://via.placeholder.com/120x700"
+          width={120}
+          height={700}
+        />
+        <img
+          src="https://via.placeholder.com/150x730"
+          width={150}
+          height={730}
+        />
+        <img
+          src="https://via.placeholder.com/150x160"
+          width={150}
+          height={160}
+        />
+        <img
+          src="https://via.placeholder.com/610x130"
+          width={610}
+          height={130}
+        />
+        <img
+          src="https://via.placeholder.com/400x150"
+          width={400}
+          height={150}
+        />
+        <img
+          src="https://via.placeholder.com/120x700"
+          width={120}
+          height={700}
+        />
+        <img
+          src="https://via.placeholder.com/400x150"
+          width={400}
+          height={150}
+        />
+        <img
+          src="https://via.placeholder.com/120x700"
+          width={120}
+          height={700}
+        />
+        <img
+          src="https://via.placeholder.com/150x730"
+          width={150}
+          height={730}
+        />
+        <img
+          src="https://via.placeholder.com/150x160"
+          width={150}
+          height={160}
+        />
+        <img
+          src="https://via.placeholder.com/170x170"
+          width={170}
+          height={170}
+        />
+        <img
+          src="https://via.placeholder.com/120x700"
+          width={120}
+          height={700}
+        />
+        <img
+          src="https://via.placeholder.com/150x730"
+          width={150}
+          height={730}
+        />
+        <img
+          src="https://via.placeholder.com/150x160"
+          width={150}
+          height={160}
+        />
+        <img
+          src="https://via.placeholder.com/610x130"
+          width={610}
+          height={130}
+        />
+        <img
+          src="https://via.placeholder.com/400x150"
+          width={400}
+          height={150}
+        />
+        <img
+          src="https://via.placeholder.com/120x700"
+          width={120}
+          height={700}
+        />
+        <img
+          src="https://via.placeholder.com/400x150"
+          width={400}
+          height={150}
+        />
+      </ImageGrid>
+    </>
+  )
+}
