@@ -1,21 +1,16 @@
 import React from 'react'
 
 import { ImageGrid } from '../src'
-import { withKnobs, number } from '@storybook/addon-knobs'
 
 export default {
   title: 'ImageGrid',
   component: ImageGrid,
-  decorators: [withKnobs],
 }
 
-export const basic = () => {
+export const basic = ({ padding, rowHeight }) => {
   return (
     <>
-      <ImageGrid
-        padding={number('padding', 10, { min: 0, max: 50, step: 5 })}
-        rowHeight={number('rowHeight', 200, { min: 100, max: 500, step: 100 })}
-      >
+      <ImageGrid padding={padding} rowHeight={rowHeight}>
         <img
           src={`https://via.placeholder.com/600x800`}
           width={600}

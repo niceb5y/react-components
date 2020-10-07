@@ -12,25 +12,25 @@
     "classnames": "^2.2.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.4",
-    "@storybook/addon-actions": "^5.3.19",
-    "@storybook/addon-info": "^5.3.19",
-    "@storybook/addon-knobs": "^5.3.19",
-    "@storybook/addon-links": "^5.3.19",
-    "@storybook/addons": "^5.3.19",
-    "@storybook/react": "^5.3.19",
+    "@babel/core": "^7.11.6",
+    "@storybook/addon-actions": "^6.0.26",
+    "@storybook/addon-controls": "^6.0.26",
+    "@storybook/addon-docs": "^6.0.26",
+    "@storybook/addon-links": "^6.0.26",
+    "@storybook/addons": "^6.0.26",
+    "@storybook/react": "^6.0.26",
     "@types/classnames": "^2.2.10",
-    "@types/node": "^14.0.23",
-    "@types/react": "^16.9.43",
+    "@types/node": "^14.11.5",
+    "@types/react": "^16.9.51",
     "@types/react-dom": "^16.9.8",
-    "@types/styled-components": "^5.1.1",
+    "@types/styled-components": "^5.1.3",
     "babel-loader": "^8.1.0",
     "react-docgen-typescript-loader": "^3.7.2",
-    "ts-loader": "^8.0.0",
-    "typescript": "^3.9.6"
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
